@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../../fonts/Montserrat-Black.ttf);
+}
+
+.form{
+    background-color: rgb(239, 239, 239);
+    background-repeat:no-repeat;
+    border-style: hidden;
+    border-radius: 15px;
+    width: 65vh;
+    display: block;
+    position: relative;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form div{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 302px;
+    height: 255px;
+    
+}
+
+form .titulo{
+    color: rgb(43, 43, 43);
+font-size: 25px;
+font-family: Montserrat-Black;
+}
+
+body{
+    background-color: rgb(167, 8, 8);
+}
+
+
+
+.rodadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 305px;
+    height: 258px;
+    padding: 50px;
+    margin-bottom: 2%;
+    margin: 0 auto;
+    margin-top: 22%;
+}
+
+.rodadas .rodadas-title{
+    align-items: center;
+    justify-content: center;
+    margin-top: 22%;
+
+}
+
+.rodadas .rodadas-text{
+    white-space: nowrap; 
+    margin-bottom: 20%; 
+    padding-right:5%; 
+    font-family: Montserrat;
+    text-align: center;
+    position: static;
+}
+
+
+.rodadas-img{
+    position: absolute;
+    align-items: center;
+    margin-right: 1vh;
+    margin-top: 25%;
+}
+
+.rodadas-img input{
+    width: 50px;
+}
+
+
+ .form .grupo1 button {
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin:  0 auto;
+    margin-bottom: 35%;
+    
+}
+
+.form .grupo2 button {
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin:  0 auto;
+    margin-bottom: 55%;
+    
+}
+
+.form .grupos { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 60px;
+    margin: 0 auto;
+    gap: 5px;
+}
+ 
+
+.form  .grupos button{
+font-size: smaller;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.form .grupos a { 
+    font-size: 12px;
+    padding: 3%;
+    font-family: Montserrat-Black;
+    list-style: none;
+    text-decoration: none;
+}
+
